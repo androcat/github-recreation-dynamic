@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github Recreation</title>
+    <title>Github Recreation - Dynamic</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -181,14 +181,12 @@
             <button>Sort</button>
           </div>
         </nav>
-        <ul>
-          <li>
-            <article>
-              <h3>verticle-time</h3>
-            </article>
-          </li>
-        </ul>
+        <ul id="repos__list"></ul>
+        <template id="repos__list-item">
+          <li></li>
+        </template>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
