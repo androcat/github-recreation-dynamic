@@ -229,10 +229,11 @@
         </nav>
         <ul id="repos"></ul>
         <template id="repos__list-item">
-          <li>
+          <li class="repo__name_here">
             <article>
               <div class="repo__text_content">
-                <h3 class="repo__name_here">
+                <h3>
+                  <!-- <h3 class="repo__name_here"> -->
                   <!-- <script>
                     document.write(repos.push(obj.name));
                     let repos = [];
@@ -241,7 +242,7 @@
                 <div class="repo__text_content__caption">
                   <p class="repo__text_content__html">HTML</p>
                   <br />
-                  <p>Updated 2 hours ago</p>
+                  <p class="repo__update">Last updated:</p>
                 </div>
               </div>
               <button>
